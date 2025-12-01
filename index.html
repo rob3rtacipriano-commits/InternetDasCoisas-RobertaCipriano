@@ -4,35 +4,87 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Internet das Coisas</title>
-  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    body {
-      font-family: 'Times new roman', sans-serif;
-    }
-    header {
-      background-color: #a7a7a7;
-      color: white;
-    }
-    .navbar {
-      background-color: #6c757d;
-    }
-    .navbar-nav .nav-link {
-      color: white;
-      font-weight: 500;
-    }
-    .navbar-nav .nav-link:hover {
-      text-decoration: underline;
-    }
-    h1.titulo {
-      font-size: 3rem;
-      color: white;
-      font-weight: bold;
-    }
+<style>
+html {
+scroll-behavior: smooth;
+}
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== HEADER ===== */
+header {
+background-color: #6c757d;
+color: white;
+}
+
+.navbar {
+background-color: #6c757d;
+}
+
+.navbar-nav .nav-link {
+color: white;
+font-weight: 500;
+transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+text-decoration: underline;
+color: #fff;
+}
+
+/* ===== TÍTULOS ===== */
+h1.titulo {
+font-size: 3rem;
+color: white;
+font-weight: bold;
+}
+
+h3.titulo {
+font-size: 1.8rem;
+color: #0957cc;
+font-weight: bold;
+margin-bottom: 1.5rem;
+}
+
+/* ===== IMAGENS ===== */
+img src="assets/images/iot-ilustracao.png" alt="Diagrama ilustrativo de Internet das Coisas" class="img-fluid" style="width: 300px; height: auto;" />
+img src="assets/images/termostato.jpg" alt="Termostato inteligente em parede" class="img-fluid rounded shadow-sm" style="max-width: 350px; height: auto;" /
+}
+
+/* ===== CARDS ===== */
+.card {
+border: 1px solid #dee2e6;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== FOOTER ===== */
+footer {
+background-color: #212529;
+color: white;
+text-align: center;
+padding: 1.5rem 0;
+margin-top: 3rem;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+h1.titulo {
+font-size: 2rem;
+}
+
+h3.titulo {
+font-size: 1.3rem;
+}
+}
+head
     h3.titulo {
       font-size: 1.8rem; 
       color: #0957cc;
@@ -105,10 +157,10 @@
 
   <h3 id="industrial" class="mb-4 text-left titulo">Internet Industrial das Coisas</h3>
   <p class="mb-4">
-    O funcionamento da IoT baseia-se em quatro pilares principais: dispositivos com sensores embutidos, conectividade com redes de dados, plataformas que armazenam e processam essas informações, e interfaces de usuário que permitem o controle e o monitoramento dos sistemas.
+    A Internet Industrial das Coisas, ou IIoT, refere-se à aplicação de IoT em ambientes industriais e de montagem. Diferente das casas inteligentes, a IIoT foca na otimização de processos produtivos, monitoramento de máquinas e previsão de manutenção.
   </p>
   <p class="mb-5">
-    Ao conectar dispositivos à internet, cria-se um ecossistema no qual eles podem interagir entre si e com sistemas maiores, como plataformas em nuvem ou algoritmos de inteligência artificial. Tem o intuito de otimizar processos, melhorar a tomada de decisões e oferecer maior conforto, segurança e economia de recursos.
+   Exemplos: sensores em máquinas que detectam e preveem falhas antes delas acontecerem, sistemas de rastreamento de produção em tempo real, e otimização de cadeias de suprimentos. Seu uso resulta em redução de custos, aumento de produtividade e maior segurança nos ambientes industriais.
   </p>
 
   <h3 id="casas" class="mb-4 text-left titulo">Casas Inteligentes</h3>
