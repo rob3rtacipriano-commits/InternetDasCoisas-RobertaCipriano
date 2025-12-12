@@ -5,95 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Internet das Coisas</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+ <link rel="stylesheet" href="pagina.css">
 
-<style>
-html {
-scroll-behavior: smooth;
-}
-body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* ===== HEADER ===== */
-header {
-background-color: #6c757d;
-color: white;
-}
-
-.navbar {
-background-color: #6c757d;
-}
-
-.navbar-nav .nav-link {
-color: white;
-font-weight: 500;
-transition: all 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-text-decoration: underline;
-color: #fff;
-}
-
-/* ===== TÍTULOS ===== */
-h1.titulo {
-font-size: 3rem;
-color: white;
-font-weight: bold;
-}
-
-h3.titulo {
-font-size: 1.8rem;
-color: #0957cc;
-font-weight: bold;
-margin-bottom: 1.5rem;
-}
-
-/* ===== IMAGENS ===== */
-img src="assets/images/iot-ilustracao.png" alt="Diagrama ilustrativo de Internet das Coisas" class="img-fluid" style="width: 300px; height: auto;" />
-img src="assets/images/termostato.jpg" alt="Termostato inteligente em parede" class="img-fluid rounded shadow-sm" style="max-width: 350px; height: auto;" /
-}
-
-/* ===== CARDS ===== */
-.card {
-border: 1px solid #dee2e6;
-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-transition: box-shadow 0.3s ease;
-}
-
-.card:hover {
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-/* ===== FOOTER ===== */
-footer {
-background-color: #212529;
-color: white;
-text-align: center;
-padding: 1.5rem 0;
-margin-top: 3rem;
-}
-
-/* ===== RESPONSIVIDADE ===== */
-@media (max-width: 768px) {
-h1.titulo {
-font-size: 2rem;
-}
-
-h3.titulo {
-font-size: 1.3rem;
-}
-}
-head
-    h3.titulo {
-      font-size: 1.8rem; 
-      color: #0957cc;
-      font-weight: bold;
-    }
-  </style>
 </head>
-<body id="topo">
-
     <!-- menu que te manda pros links dos títulos -->
 <header class="text-white" style="background-color: #6c757d;">
   <nav class="navbar navbar-expand-lg navbar-dark">
@@ -149,26 +63,26 @@ head
 
   <h3 id="funcionamento" class="mb-4 text-left titulo">Funcionamento</h3>
   <p class="mb-4">
-    O funcionamento da IoT baseia-se em quatro pilares principais: dispositivos com sensores embutidos, conectividade com redes de dados, plataformas que armazenam e processam essas informações, e interfaces de usuário que permitem o controle e o monitoramento dos sistemas.
+  O funcionamento da IoT apoia-se em quatro pilares fundamentais. O primeiro é a presença de dispositivos com sensores, que captam informações do ambiente, como temperatura, luminosidade, movimento ou consumo de energia. O segundo pilar é a conectividade, que permite enviar e receber dados por meio de redes como Wi-Fi, Bluetooth, 4G ou 5G. O terceiro envolve plataformas que armazenam, organizam e processam essas informações, geralmente em servidores ou serviços de nuvem. Por fim, o quarto pilar são as interfaces de usuário, que permitem acompanhar, controlar e interagir com os dispositivos por aplicativos, painéis online ou assistentes virtuais.
   </p>
   <p class="mb-5">
-    Ao conectar dispositivos à internet, cria-se um ecossistema no qual eles podem interagir entre si e com sistemas maiores, como plataformas em nuvem ou algoritmos de inteligência artificial. Tem o intuito de otimizar processos, melhorar a tomada de decisões e oferecer maior conforto, segurança e economia de recursos.
+    Quando esses elementos trabalham em conjunto e os dispositivos são conectados à internet, forma-se um ecossistema inteligente no qual os objetos podem se comunicar entre si e com sistemas mais complexos, como algoritmos de inteligência artificial ou plataformas de automação.
   </p>
 
   <h3 id="industrial" class="mb-4 text-left titulo">Internet Industrial das Coisas</h3>
   <p class="mb-4">
-    A Internet Industrial das Coisas, ou IIoT, refere-se à aplicação de IoT em ambientes industriais e de montagem. Diferente das casas inteligentes, a IIoT foca na otimização de processos produtivos, monitoramento de máquinas e previsão de manutenção.
+   A Internet Industrial das Coisas, ou IIoT, representa a aplicação dos princípios da IoT em ambientes produtivos, industriais e de grande escala operacional. Diferentemente do uso doméstico, que se concentra no conforto e automação residencial, a IIoT tem como principal objetivo aprimorar processos industriais por meio da digitalização e da interconexão de máquinas, equipamentos e sistemas de controle. Esse modelo permite monitorar operações em tempo real, otimizar fluxos de trabalho e antecipar possíveis falhas, aumentando a eficiência de toda a cadeia produtiva.
   </p>
   <p class="mb-5">
-   Exemplos: sensores em máquinas que detectam e preveem falhas antes delas acontecerem, sistemas de rastreamento de produção em tempo real, e otimização de cadeias de suprimentos. Seu uso resulta em redução de custos, aumento de produtividade e maior segurança nos ambientes industriais.
+   Na prática, isso envolve sensores que detectam vibrações anormais, quedas de desempenho ou sinais de manutenção antes de falhas. Inclui também rastreamento da produção, análise preditiva e integração de informações entre setores. Com isso, as indústrias reduzem custos, aumentam a produtividade, melhoram a disponibilidade dos equipamentos e reforçam a segurança.
   </p>
 
   <h3 id="casas" class="mb-4 text-left titulo">Casas Inteligentes</h3>
   <p class="mb-4">
-    No ambiente doméstico, a Internet das Coisas se manifesta por meio das chamadas casas inteligentes, em que equipamentos como lâmpadas, termostatos, fechaduras e assistentes virtuais podem ser controlados remotamente por meio de aplicativos ou comandos de voz.
+    No ambiente doméstico, a Internet das Coisas se manifesta nas chamadas casas inteligentes, onde dispositivos conectados (lâmpadas, termostatos, fechaduras, câmeras e assistentes virtuais) podem ser controlados ou monitorados por meio de aplicativos, comandos de voz ou rotinas automatizadas. Essa integração torna o lar mais confortável, seguro e eficiente no uso de energia.
   </p>
   <p class="mb-5">
-    Na área da saúde, dispositivos vestíveis, como pulseiras e relógios inteligentes, monitoram sinais vitais e podem enviar informações diretamente aos profissionais de saúde, permitindo um acompanhamento mais preciso e contínuo de pacientes.
+   Na área da saúde, a IoT também se destaca por meio de dispositivos vestíveis, como pulseiras e relógios inteligentes, que registram sinais vitais, níveis de atividade e outros dados biométricos. Essas informações podem ser analisadas pelo usuário ou enviadas a profissionais de saúde, permitindo um acompanhamento mais preciso, preventivo e contínuo.
   </p>
 
   <!-- quadradinho de tabela -->
@@ -206,6 +120,9 @@ head
 <footer class="bg-dark text-white text-center py-3 mt-5">
   <p class="mb-0">&copy; 2025 - Internet das Coisas</p>
 </footer>
+
+<img src="assets/images/iot-ilustracao.png" class="img-fluid img-iot">
+<img src="assets/images/termostato.jpg" class="img-fluid rounded shadow-sm img-termostato">
 
 <!-- Bootstrap JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

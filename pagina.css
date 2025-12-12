@@ -1,0 +1,98 @@
+* {
+    box-sizing:border-box;
+}
+<style>
+html {
+scroll-behavior: smooth;
+}
+body {
+font-family: 'Helvetica Neue', Arial, sans-serif;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rajdhani', sans-serif; 
+}
+
+/* ===== HEADER ===== */
+header {
+background-color: #6c757d;
+color: white;
+}
+
+.navbar {
+background-color: #6c757d;
+}
+
+.navbar-nav .nav-link {
+color: white;
+font-weight: 500;
+transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+text-decoration: underline;
+color: #0d3791;
+}
+
+/* ===== TÍTULOS ===== */
+h1.titulo {
+font-size: 3rem;
+color: white;
+font-weight: bold;
+}
+
+h3.titulo {
+font-size: 1.8rem;
+color: #264994;
+font-weight: bold;
+margin-bottom: 1.5rem;
+}
+
+/* ===== IMAGENS ===== */
+.img-iot {
+  width: 300px;
+  height: auto;
+}
+
+.img-termostato {
+  max-width: 350px;
+  height: auto;
+}
+
+/* ===== CARDS ===== */
+.card {
+border: 1px solid #6c757d;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== FOOTER ===== */
+footer {
+background-color: #212529;
+color: white;
+text-align: center;
+padding: 1.5rem 0;
+margin-top: 3rem;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+h1.titulo {
+font-size: 2rem;
+}
+
+h3.titulo {
+font-size: 1.3rem;
+}
+}
+head
+    h3.titulo {
+      font-size: 1.8rem; 
+      color: #0957cc;
+      font-weight: bold;
+    }
+  </style>
